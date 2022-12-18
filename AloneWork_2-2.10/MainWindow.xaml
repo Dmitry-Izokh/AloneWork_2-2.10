@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:AloneWork_2_2._10"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800" Background="LightGray">
-    <StackPanel>
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel>
         
         
         <Border BorderBrush="White" 
@@ -75,6 +76,7 @@
                 </TransformGroup>
             </Border.RenderTransform>
         </Border>
+        </StackPanel>
 
     </StackPanel>
 </Window>
